@@ -11,3 +11,6 @@ def log_error(message):
 def log_info(message):
     """Registra un mensaje informativo en el logger."""
     logger.info(message)
+
+
+

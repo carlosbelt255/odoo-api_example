@@ -23,3 +23,4 @@ def get_odoo_connection():
         return models, uid
     except Exception as e:
         raise ConnectionError(f"Error al conectar a Odoo: {e}")
+
